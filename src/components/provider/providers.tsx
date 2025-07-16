@@ -8,7 +8,7 @@ export function Providers({
   children: React.ReactNode | React.ReactNode[];
 }) {
   return (
-    <HeroUIProvider className="relative flex h-full min-h-[100dvh] flex-col">
+    <HeroUIProvider>
       <ToastProvider />
       {children}
     </HeroUIProvider>
